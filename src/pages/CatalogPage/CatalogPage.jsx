@@ -22,7 +22,6 @@ import {
 
 const CatalogPage = () => {
   const cars = useSelector(selectCarsAdverts);
-
   const filteredCars = useSelector(selectCarsFilteredAdverts);
   const isLoading = useSelector(selectCarsIsLoading);
   const error = useSelector(selectCarsError);
