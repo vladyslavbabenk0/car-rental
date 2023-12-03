@@ -7,7 +7,7 @@ const ErrorPage = () => {
       <p className={css.error}>404</p>
       <p className={css.text}>Sorry, no such page</p>
 
-      <Link className={css.link} to="/catalog">
+      <Link className={css.link} to="/">
         Return to main
       </Link>
     </div>
