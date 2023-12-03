@@ -27,7 +27,6 @@ const CatalogPage = () => {
   const isLoading = useSelector(selectCarsIsLoading);
   const error = useSelector(selectCarsError);
   const dispatch = useDispatch();
-
   const [isCarModalOpen, setIsCarModalOpen] = useState(false);
   const [isSuccessModalOpen, setIsSuccessModalOpen] = useState(false);
   const [advert, setAdvert] = useState(null);
