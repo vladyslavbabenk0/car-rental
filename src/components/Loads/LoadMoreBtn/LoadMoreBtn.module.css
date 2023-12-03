@@ -1,0 +1,17 @@
+.button {
+  all: unset;
+  display: block;
+  margin: 100px auto;
+  padding: 15px 15px 150px 15px;
+  color: var(--blue);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--hover-blue);
+}

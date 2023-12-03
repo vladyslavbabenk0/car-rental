@@ -1,0 +1,32 @@
+.container {
+  margin: 70px auto;
+  width: 1184px;
+}
+
+.text {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.button {
+  all: unset;
+  margin: 32px auto;
+  box-sizing: border-box;
+  display: block;
+  width: fit-content;
+  height: 44px;
+  padding: 12px 50px;
+  text-align: center;
+  border-radius: 12px;
+  background: #3470ff;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.42;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background: var(--hover-blue);
+}

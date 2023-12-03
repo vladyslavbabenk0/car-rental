@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  width: 100%;
+}
+
+.cars_container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 50px;
+  column-gap: 29px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 365px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 758px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1184px;
+  }
+  .cars_container {
+    justify-content: flex-start;
+  }
+}
